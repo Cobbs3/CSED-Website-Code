@@ -1,0 +1,102 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-image: url("login.jpg");
+  background-size: cover;
+  background-color: #333;
+  max-width: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #232323;
+  max-width: 100%;
+}
+
+.cover-container {
+  min-width: 80%;
+}
+
+.cover-heading {
+  color: #ff1c15;
+  max-width: 100%;
+}
+
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-left: 5px;
+}
+
+.nav-masthead .btn-toolbar {
+  font-weight: 500;
+  color: #232323;
+  background-color: transparent;
+}
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.nav-masthead .btn-toolbar .btn-primary {
+  margin: 0 10px;
+}
+
+@media (min-width: 48em) {
+  .logo{
+    float: left;
+  }
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
